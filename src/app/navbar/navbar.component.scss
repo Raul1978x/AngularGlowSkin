@@ -1,0 +1,59 @@
+.container {
+    background-color: #BF1543;
+    padding: 1rem;
+    color: white;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.img-thumbnail {
+    width: 150px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.button2 {
+    font-family: Avengeance Heroic Avenger, Arial, Helvetica, sans-serif;
+    font-size: x-x-large;
+    cursor: pointer;
+    background-color:  transparent;
+}
+
+.button2:hover {
+    color: black;
+}
+
+.button {
+    font-family: Avengeance Heroic Avenger, Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: x-large;
+    cursor: pointer;
+    margin-inline: 15px;
+}
+
+.button:hover {
+    color: #978BD5;
+}
+
+.center-buttons {
+    display: flex;
+    justify-content: center;
+    /* Centrar los botones horizontalmente */
+    align-items: center;
+    /* Centrar los botones verticalmente */
+    flex: 1;
+    /* El div ocupará todo el espacio restante */
+}
+
+.button3 {
+    font-family: Avengeance Heroic Avenger, Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.button3:hover {
+    color: greenyellow;
+}

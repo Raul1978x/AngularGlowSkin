@@ -1,0 +1,25 @@
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 250px;
+    background-color: #BF1543;
+    color: white;
+    // padding: 20px;
+    transition: transform 0.3s ease-in-out;
+    font-family: Avengeance Heroic Avenger, Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: x-large;
+    cursor: pointer;
+    margin-top: 4rem;
+  }
+  .sidebar-item {
+padding-top: 2rem;
+margin-left: 1rem;
+  }
+  
+  .sidebar.collapsed {
+    transform: translateX(-100%);
+  }
+  

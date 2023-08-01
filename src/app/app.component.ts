@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  @Output() newItemEvent = new EventEmitter<string>()
   title = 'Glow_Skin';
+  onClick(item: string): void{
+    console.log(item);
+    
+  }
+
 }

@@ -1,0 +1,25 @@
+<!-- <div class="container">
+  <app-button class="button2" [glowSkin]="glowSkin">{{ glowSkin }}</app-button>
+  <div *ngFor="let item of items" class="center-buttons">
+    <app-button [item]="item" class="button">{{ item }}</app-button>
+  </div>
+  <app-button class="button3" [login]="login">{{ login }}</app-button>
+</div> -->
+<div class="container">
+  <button class="button2" (click)="slideSidebar()">
+    <img
+      class="img-thumbnail"
+      src="assets/GlowSkinLogo.png"
+      alt=""
+      
+    />
+  </button>
+
+  <app-sidebar></app-sidebar>
+  <div class="center-buttons">
+    <app-button [item]="items[0]" class="button">{{ items[0] }}</app-button>
+    <app-button [item]="items[1]" class="button">{{ items[1] }}</app-button>
+    <app-button [item]="items[2]" class="button">{{ items[2] }}</app-button>
+  </div>
+  <app-button class="button3" [login]="login">{{ login }}</app-button>
+</div>
